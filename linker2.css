@@ -1,0 +1,108 @@
+body{
+   
+   background-image: url(https://cdn.hipwallpaper.com/i/22/62/zruh4a.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        border: 8px solid rgb(13, 187, 231);
+        background-size: cover;
+
+}
+#firstbox {
+    display: inline-block;
+    color: white;
+    background-color: rgb(128, 255, 0);
+    border: 8px solid orangered;
+    border-radius: 25%;
+    width: 350px;
+    height: 205px;
+    text-align: center;
+    margin: 40px;
+}
+#secondbox{
+    display: inline-block;
+    color: white;
+    background-color:rgb(128, 255, 0);
+    border: 8px solid white;
+    border-radius: 25%;
+    text-align: justify;
+    margin: 40px;
+  
+    
+}
+#thirdbox{
+    display: inline-block;
+    color: white;
+    background-color: rgb(128, 255, 0);
+    border: 8px solid green;
+    border-radius: 25%;
+    text-align: center;
+    height: 205px;
+    margin:  40px;
+    margin-top: 60px
+   
+}
+#boxes{
+display: inline-block;
+    margin: 40px;
+}
+.offers_1{
+    display: flex;
+    flex-wrap: row wrap;
+}
+.offers{
+    
+    text-align: center;
+    border:4px solid chartreuse;
+    border-radius: 50%;
+    background-color: cyan;
+    color: black;
+    padding: 30px;
+    height: 400px;
+    width: 400px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    margin-left: 100px;
+    margin-right: 300px;
+    align-items: center;
+    margin-top: 170px;
+}
+.registration{
+   
+    width: 510px;
+    text-align: center;
+    color: rgb(245, 6, 6);
+    background-color: white;
+    border: 7px dashed rgb(245, 6, 6);
+    
+    margin: 0px;
+}
+.menu{
+    width: 40%;
+    color: white;
+    background-color: black;
+    border-radius: 25%;
+    border: 8px solid red;
+    text-align: center;
+    padding: 50px;
+    margin-top: 45px;
+    margin-left: 28%;
+}
+
+.dishes{
+    display: flexbox;
+    flex-wrap: row wrap;
+
+}
+.dish{
+    display: inline-block;
+    height: 300px;
+    width: 350px;
+    border: 6px solid lightgreen;
+    border-radius: 20px;
+    color: purple;
+    background-color: sandybrown;
+    text-align: center;
+    margin: 40px;
+
+}
