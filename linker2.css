@@ -9,7 +9,7 @@ body{
 
 }
 #firstbox {
-    display: inline-block;
+
     color: white;
     background-color: rgb(128, 255, 0);
     border: 8px solid orangered;
@@ -20,18 +20,18 @@ body{
     margin: 40px;
 }
 #secondbox{
-    display: inline-block;
+    
     color: white;
     background-color:rgb(128, 255, 0);
     border: 8px solid white;
     border-radius: 25%;
     text-align: justify;
     margin: 40px;
-  
-    
+   height: fit-content;
+   margin-top: 105px;
 }
 #thirdbox{
-    display: inline-block;
+   
     color: white;
     background-color: rgb(128, 255, 0);
     border: 8px solid green;
@@ -43,8 +43,8 @@ body{
    
 }
 #boxes{
-display: inline-block;
-    margin: 40px;
+display: flex;
+  flex-wrap: row wrap;
 }
 .offers_1{
     display: flex;
